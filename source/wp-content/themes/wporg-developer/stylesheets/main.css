@@ -3070,6 +3070,7 @@ body.responsive-show #o2-expand-editor {
   }
   #page {
     overflow-x: hidden;
+    overflow-x: clip;
   }
   body.responsive-show {
     overflow-y: visible;
