@@ -392,6 +392,7 @@ function theme_scripts_styles() {
 	wp_enqueue_script( 'wporg-developer-navigation', get_stylesheet_directory_uri() . '/js/navigation.js', array(), filemtime( __DIR__ . '/js/navigation.js' ), true );
 	wp_enqueue_script( 'wporg-developer-chapters', get_stylesheet_directory_uri() . '/js/chapters.js', array( 'jquery' ), filemtime( __DIR__ . '/js/chapters.js' ) );
 	wp_enqueue_script( 'wporg-developer-menu', get_stylesheet_directory_uri() . '/js/menu.js', array( 'jquery' ), filemtime( __DIR__ . '/js/menu.js' ), true );
+	wp_enqueue_script( 'wporg-table-of-contents', get_stylesheet_directory_uri() . '/js/table-of-contents.js', array(), filemtime( __DIR__ . '/js/table-of-contents.js' ), true );
 }
 
 /**
